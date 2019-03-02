@@ -5,16 +5,18 @@
 
 {% block extra_css %}
 <!-- Extra CSS -->
+<link rel="stylesheet" href="{% static 'home.css' %}">
 
 {% endblock extra_css %}
 
 {% block content %}
 <!-- Home Content -->
+<div id="home"></div>
 
 {% endblock content %}
 
 
 {% block extra_js %}
 <!-- Extra JS -->
-
+<script src="{% static 'home.js' %}"></script>
 {% endblock extra_js %}
