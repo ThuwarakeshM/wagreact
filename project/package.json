@@ -1,0 +1,41 @@
+{
+  "name": "wagreact",
+  "version": "1.0.0",
+  "description": "Starter app for react integration to wagtail(Django)",
+  "main": "index.js",
+  "watch": {
+    "dev": {
+      "patterns": [
+        "src"
+      ]
+    }
+  },
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "watch": "npm-watch"
+  },
+  "author": "Thuwarakesh M",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "bulma": "^0.7.4",
+    "css-loader": "^2.1.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "node-sass": "^4.11.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
+  },
+  "dependencies": {
+    "npm-watch": "^0.6.0"
+  }
+}

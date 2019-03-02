@@ -14,11 +14,12 @@
                 {% endwith %}
             {% endblock %}
         </title>
+        <link rel="shortcut icon" href="{% static 'favicon.ico' %}" type="image/x-icon">
         <meta name="description" content="" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
         {# Global stylesheets #}
-        <link rel="stylesheet" type="text/css" href="{% static 'css/project.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'main.css' %}">
 
         {% block extra_css %}
             {# Override this in templates to add extra stylesheets #}
@@ -31,7 +32,7 @@
         {% block content %}{% endblock %}
 
         {# Global javascript #}
-        <script type="text/javascript" src="{% static 'js/project.js' %}"></script>
+        <script type="text/javascript" src="{% static 'main.js' %}"></script>
 
         {% block extra_js %}
             {# Override this in templates to add extra javascript #}
